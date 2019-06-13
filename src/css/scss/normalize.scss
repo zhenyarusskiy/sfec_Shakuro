@@ -72,6 +72,7 @@
     
     a {
       background-color: transparent;
+      display: block;
     }
     
     /**
@@ -119,6 +120,9 @@
       border: none;
       background: transparent;
       cursor: pointer;
+  }
+  span{
+    display: block;
   }
   
   input, textarea{

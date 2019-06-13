@@ -10,25 +10,29 @@
 
   <body>
     <div class="page-wrap">
-      <header class="header container">
-        <div class="logo">Company<br />name</div>
-        <nav class="menu">
-          <ul class="menu__list">
-            <li class="menu__item">
-              <a href="#" class="menu__link">Models</a>
-            </li>
-            <li class="menu__item">
-              <a href="#" class="menu__link">Consulting</a>
-            </li>
-            <li class="menu__item">
-              <a href="#" class="menu__link">About</a>
-            </li>
-            <li class="menu__item">
-              <a href="" class="menu__link">Blog</a>
-            </li>
-          </ul>
-        </nav>
+      <header class="header">
+        <div class="container header__box">
+          <div class="logo">Company<br />name</div>
+          <nav class="menu">
+            <ul class="menu__list">
+              <li class="menu__item">
+                <a href="#" class="menu__link">Models</a>
+              </li>
+              <li class="menu__item">
+                <a href="#" class="menu__link">Consulting</a>
+              </li>
+              <li class="menu__item">
+                <a href="#" class="menu__link">About</a>
+              </li>
+              <li class="menu__item">
+                <a href="" class="menu__link">Blog</a>
+              </li>
+            </ul>
+          </nav>
+        </div>
       </header>
+    </div>
+    <div class="main-wrap">
       <div class="welcome">
         <div class="information container">
           <div class="information__title">
@@ -53,7 +57,7 @@
               drawings and quotes were the cherry on top!"
             </div>
             <div class="reviews__information">
-              Esha Puri, Associate, Deutsche Bank
+              <strong>Esha Puri</strong>, Associate, Deutsche Bank
             </div>
           </div>
 
@@ -221,13 +225,14 @@
             </li>
           </ul>
           <div class="consulting__information">
-              <div class="consulting__text">
-                  At Multifamily Modeling, our aim is to provide our clients with high quality and meticulously honed consulting services to help them get to the right answer.
-              </div>
-              <a href="#" class="btn consulting__btn">Learn More</a>
+            <div class="consulting__text">
+              At Multifamily Modeling, our aim is to provide our clients with
+              high quality and meticulously honed consulting services to help
+              them get to the right answer.
             </div>
+            <a href="#" class="btn consulting__btn">Learn More</a>
+          </div>
         </div>
-       
       </div>
       <div class="we-do">
         <div class="container">
@@ -248,7 +253,111 @@
           </div>
         </div>
       </div>
+      <div class="articles">
+        <div class="container">
+          <h3 class="title articles__title">
+            Articles
+          </h3>
+          <ul class="articles__list">
+            <li class="articles__item">
+              <a href="#" class="articles__link">
+                <img
+                  src="src/img/articles__pic1.png"
+                  alt=""
+                  class="articles__pic"
+                />
+              </a>
+              <span class="articles__item__title"
+                >Multifamily Ground-Up Development Model</span
+              >
+              <div class="articles__desc">
+                The Development Models will appeal to developers both small and
+                large. Meaning, a small 2-3 person shop...
+              </div>
+            </li>
+            <li class="articles__item">
+              <a href="#" class="articles__link">
+                <img
+                  src="src/img/articles__pic2.png"
+                  alt=""
+                  class="articles__pic"
+                />
+              </a>
+              <span class="articles__item__title"
+                >Multifamily Ground-Up Development Model
+              </span>
+              <div class="articles__desc">
+                The Development Models will appeal to developers both small and
+                large. Meaning, a small 2-3 person shop...
+              </div>
+            </li>
+            <li class="articles__item">
+              <a href="#" class="articles__link">
+                <img
+                  src="src/img/articles__pic3.png"
+                  alt=""
+                  class="articles__pic"
+                />
+              </a>
+              <span class="articles__item__title"
+                >Multifamily Ground-Up Development Model
+              </span>
+              <div class="articles__desc">
+                The Development Models will appeal to developers both small and
+                large. Meaning, a small 2-3 person shop...
+              </div>
+            </li>
+            <a href="#" class="next__btn">
+              <svg
+                class="go-next"
+                width="48"
+                height="48"
+                viewBox="0 0 48 48"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M24 0L19.77 4.23L36.51 21H0V27H36.51L19.77 43.77L24 48L48 24L24 0Z"
+                  fill="#2A4BFF"
+                />
+              </svg>
+            </a>
+          </ul>
+        </div>
+      </div>
     </div>
+    <footer class="footer">
+      <div class="container">
+        <div class="footer__wrap">
+          <div class="logo footer__logo">Company<br />name</div>
+          <div class="footer__box">
+              <nav class="menu">
+                  <ul class="menu__list">
+                    <li class="menu__item">
+                      <a href="#" class="menu__link">Models</a>
+                    </li>
+                    <li class="menu__item">
+                      <a href="#" class="menu__link">Consulting</a>
+                    </li>
+                    <li class="menu__item">
+                      <a href="#" class="menu__link">About</a>
+                    </li>
+                    <li class="menu__item">
+                      <a href="" class="menu__link">Blog</a>
+                    </li>
+                    <li class="menu__item">
+                        <a href="" class="menu__link">legal</a>
+                      </li>
+                  </ul>
+                </nav>
+                <div class="footer__info">
+                  <span class="adress">P.O. Box XXXX, Fairfield, CT 06815</span>
+                 <a href="tel:8888888888" class="phone">(203) xxx-5555</a>
+                </div>
+          </div>
+        </div>
+      </div>
+    </footer>
     <script src="/dist/bundle.js"></script>
   </body>
 </html>

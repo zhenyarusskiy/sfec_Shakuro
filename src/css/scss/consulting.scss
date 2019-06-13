@@ -1,11 +1,18 @@
+.consulting{
+  margin-bottom: 200px;
+}
 .consulting__list {
   display: flex;
   /* align-items: center; */
   justify-content: space-between;
-  margin-bottom: 96px;
+  margin-bottom: 48px;
+  padding-bottom: 46px;
+    border-bottom: 2px solid rgba(151,156,170, .3) ;
+ 
 }
 .consulting__item {
   max-width: 350px;
+  
 }
 .consulting__desc {
   font-family: Inter UI;
@@ -21,6 +28,7 @@
 .consulting__information {
   display: flex;
   justify-content: space-between;
+  
 }
 .consulting__text {
   max-width: 730px;
