@@ -1,46 +1,254 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link rel="stylesheet" href="/dist/main.css">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link rel="stylesheet" href="/dist/main.css" />
     <title>Document</title>
-</head>
-<body>
+  </head>
+
+  <body>
     <div class="page-wrap">
-        <header class="header container">
-            <div class="logo">
-                Company<br>name
-            </div>
+      <header class="header container">
+        <div class="logo">Company<br />name</div>
         <nav class="menu">
-            <ul class="menu__list">
-                <li class="menu__item">
-                    <a href="#" class="menu__link">Models</a>
-                </li>
-                <li class="menu__item">
-                    <a href="#" class="menu__link">Consulting</a>
-                </li>
-                <li class="menu__item">
-                    <a href="#" class="menu__link">About</a>
-                </li>
-                    <li class="menu__item">
-                        <a href="" class="menu__link">Blog</a>
-                    </li>
-            </ul>
+          <ul class="menu__list">
+            <li class="menu__item">
+              <a href="#" class="menu__link">Models</a>
+            </li>
+            <li class="menu__item">
+              <a href="#" class="menu__link">Consulting</a>
+            </li>
+            <li class="menu__item">
+              <a href="#" class="menu__link">About</a>
+            </li>
+            <li class="menu__item">
+              <a href="" class="menu__link">Blog</a>
+            </li>
+          </ul>
         </nav>
-        </header>
-        <div class="welcome">
-            <div class="information container">
-                <div class="information__title">
-                    Excel Models<br> Built by Investors,<br>for Investor
-                </div>
-                <div class="information__text">
-                    Save time and win more deals<br>with our products and consulting<br>services.
-                </div>
+      </header>
+      <div class="welcome">
+        <div class="information container">
+          <div class="information__title">
+            Excel Models<br />
+            Built by Investors,<br />for Investor
+          </div>
+          <div class="information__text">
+            Save time and win more deals<br />with our products and
+            consulting<br />services.
+          </div>
+        </div>
+      </div>
+      <div class="reviews container">
+        <h2 class="title reviews__title">
+          Testimonials
+        </h2>
+        <div class="reviews--wrap">
+          <div class="reviews__desc">
+            <div class="reviews__text">
+              "Absolutely loved. I found it to be very lucidly explained, which
+              helped me revise the basic modelling skills at a great pace. The
+              drawings and quotes were the cherry on top!"
+            </div>
+            <div class="reviews__information">
+              Esha Puri, Associate, Deutsche Bank
+            </div>
+          </div>
+
+          <div class="pagination">
+            <a href="#" class="pagination__link_prev"></a>
+            <ul class="pagination__list">
+              <li class="pagination__item">
+                <a href="#" class="pagination__link"></a>
+              </li>
+              <li class="pagination__item">
+                <a href="#" class="pagination__link"></a>
+              </li>
+              <li class="pagination__item">
+                <a href="#" class="pagination__link"></a>
+              </li>
+              <li class="pagination__item">
+                <a href="#" class="pagination__link"></a>
+              </li>
+              <li class="pagination__item">
+                <a href="#" class="pagination__link"></a>
+              </li>
+              <li class="pagination__item">
+                <a href="#" class="pagination__link"></a>
+              </li>
+              <li class="pagination__item">
+                <a href="#" class="pagination__link"></a>
+              </li>
+            </ul>
+            <a href="#" class="pagination__link_next"></a>
+          </div>
+        </div>
+      </div>
+      <div class="models">
+        <div class="container">
+          <h3 class="title models__title">Models</h3>
+          <ul class="models__list">
+            <li class="models__item">
+              <a href="" class="models__link">
+                <img
+                  src="src/img/models__pic1.png"
+                  alt=""
+                  class="models__link_pic"
+                />
+              </a>
+              <span class="title models__item__title">
+                Standard Acquisition Model
+              </span>
+              <div class="models__desc">
+                Multifamily Modeling’s basic apartment acquisition model for an
+                existing building. Logical, straightforward, and easy to use,
+                whether you’re new to underwriting or an experienced investor.
+              </div>
+              <a href="#" class="btn models__btn">Learn More</a>
+            </li>
+            <li class="models__item">
+              <a href="" class="models__link">
+                <img
+                  src="src/img/models__pic2.png"
+                  alt=""
+                  class="models__link_pic"
+                />
+              </a>
+              <span class="title models__item__title">
+                Value-Add/Renovation Model
+              </span>
+              <div class="models__desc">
+                A sophisticated value-add model that allows users to time
+                individual unit renovations. This model combines granularity
+                with a streamlined experience.
+              </div>
+              <a href="#" class="btn models__btn">Learn More</a>
+            </li>
+            <li class="models__item">
+              <a href="" class="models__link">
+                <img
+                  src="src/img/models__pic3.png"
+                  alt=""
+                  class="models__link_pic"
+                />
+              </a>
+              <span class="title models__item__title">
+                Condo Development Model
+              </span>
+              <div class="models__desc">
+                For the ground-up development of a condominium building or
+                complex. Featuring a robust development schedule, allowing users
+                to easily run a number of construction timing scenarios.
+              </div>
+              <a href="#" class="btn models__btn">Learn More</a>
+            </li>
+            <li class="models__item">
+              <a href="" class="models__link">
+                <img
+                  src="src/img/models__pic4.png"
+                  alt=""
+                  class="models__link_pic"
+                />
+              </a>
+              <span class="title models__item__title">
+                Apartment Development Model
+              </span>
+              <div class="models__desc">
+                Our flagship development product featuring everything from a
+                Back-of-the-Envelope analysis (allowing developers to get to a
+                quick Yield-on-Cost) to our sophisticated timing and
+                construction schedules.
+              </div>
+              <a href="#" class="btn models__btn">Learn More</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <div class="consulting">
+        <div class="container">
+          <h3 class="title consulting__title">Consulting</h3>
+          <ul class="consulting__list">
+            <li class="consulting__item">
+              <a href="" class="consulting__link">
+                <img
+                  src="src/img/consulting_pic1.png"
+                  alt=""
+                  class="consulting__pic"
+                />
+              </a>
+              <span class="title consulting__item__title">
+                Custom Models
+              </span>
+              <div class="consulting__desc">
+                Not all models look the same. Need something you don’t see here?
+                We’ll build it for you.
+              </div>
+            </li>
+            <li class="consulting__item">
+              <a href="" class="consulting__link">
+                <img
+                  src="src/img/consulting_pic2.png"
+                  alt=""
+                  class="consulting__pic"
+                />
+              </a>
+              <span class="title consulting__item__title">
+                Model Audits
+              </span>
+              <div class="consulting__desc">
+                Sometimes models just need a little love. We review spreadsheets
+                on behalf of our clients in order to verify formulas and improve
+                functionality.
+              </div>
+            </li>
+            <li class="consulting__item">
+              <a href="" class="consulting__link">
+                <img
+                  src="src/img/consulting_pic3.png"
+                  alt=""
+                  class="consulting__pic"
+                />
+              </a>
+              <span class="title consulting__item__title">
+                Acqusitions Analysis
+              </span>
+              <div class="consulting__desc">
+                Do you run lean without the capital to invest in a full-time
+                Acquisition Analyst? Don’t worry, we’ve got you covered.
+              </div>
+            </li>
+          </ul>
+          <div class="consulting__information">
+              <div class="consulting__text">
+                  At Multifamily Modeling, our aim is to provide our clients with high quality and meticulously honed consulting services to help them get to the right answer.
+              </div>
+              <a href="#" class="btn consulting__btn">Learn More</a>
             </div>
         </div>
+       
+      </div>
+      <div class="we-do">
+        <div class="container">
+          <div class="we-do__wrap">
+            <h3 class="title we-do__title">
+              What We Do
+            </h3>
+            <div class="we-do__desc">
+              We create straightforward, sophisticated, and
+              aesthetically-pleasing financial models designed for the
+              multifamily investment and development community. Our firm also
+              offers consulting services to multifamily investors and developers
+              throughout the US. See our Consulting page to learn more. To us,
+              building financial models is an exercise in problem solving, and
+              we are glad to sweat the details so you don’t have to.
+            </div>
+            <a href="#" class="btn we-do__btn">Learn More</a>
+          </div>
+        </div>
+      </div>
     </div>
     <script src="/dist/bundle.js"></script>
-</body>
+  </body>
 </html>
