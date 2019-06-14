@@ -1,0 +1,41 @@
+.consulting{
+  margin-bottom: 200px;
+}
+.consulting__list {
+  display: flex;
+  /* align-items: center; */
+  justify-content: space-between;
+  margin-bottom: 48px;
+  padding-bottom: 46px;
+    border-bottom: 2px solid rgba(151,156,170, .3) ;
+ 
+}
+.consulting__item {
+  max-width: 350px;
+  
+}
+.consulting__desc {
+  font-family: Inter UI;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 24px;
+  color: #6e6f7a;
+}
+.consulting__link {
+  margin-bottom: 32px;
+}
+.consulting__information {
+  display: flex;
+  justify-content: space-between;
+  
+}
+.consulting__text {
+  max-width: 730px;
+  font-family: Inter UI;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 24px;
+  color: #0e0f21;
+}

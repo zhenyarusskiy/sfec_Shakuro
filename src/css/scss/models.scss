@@ -1,0 +1,23 @@
+.models__list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.models__item {
+  display: flex;
+  flex-direction: column;
+  max-width: 544px;
+}
+.models__link {
+  margin-bottom: 32px;
+}
+.models__desc {
+  margin-bottom: 24px;
+  font-family: Inter UI;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 24px;
+  color: #6e6f7a;
+  letter-spacing: 1px;
+}
