@@ -1,2 +1,2 @@
-const style = require("./src/css/main.scss");
+const style = require("./src/style/main.scss");
 const js = require("./src/js/common");

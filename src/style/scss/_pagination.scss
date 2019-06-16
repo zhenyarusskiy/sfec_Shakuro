@@ -4,29 +4,33 @@
 
 .pagination__link {
   content: "";
-  display:flex;
+  display: flex;
   width: 8px;
   height: 8px;
   background-color: #979caa;
   border-radius: 50%;
-  &:hover{
-    background-color:#2A4BFF;
+
+  &:hover {
+    background-color: #2A4BFF;
   }
-    
+
 }
-.pagination__link_prev{
-    display: flex;
-    width: 7.41px;
-    height: 12px;
-    margin-right: 40px;
-    background-image: url("./../img/chevron_left_24px.png");
-    background-repeat: no-repeat;
-    background-position: center center;
-    &:hover{
-      opacity: 0.3;
-    }
-    
+
+.pagination__link_prev {
+  display: flex;
+  width: 7.41px;
+  height: 12px;
+  margin-right: 40px;
+  background-image: url("./../img/chevron_left_24px.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+
+  &:hover {
+    opacity: 0.3;
+  }
+
 }
+
 .pagination__link_next {
   display: flex;
   width: 7.41px;
@@ -36,14 +40,17 @@
   background-repeat: no-repeat;
   background-position: center center;
   transform: rotate(180deg);
-  &:hover{
+
+  &:hover {
     opacity: 0.3;
   }
 }
+
 .pagination__list {
-    display: flex;
-    align-items: center;
+  display: flex;
+  align-items: center;
 }
+
 .pagination__item {
   margin-right: 8px;
 }

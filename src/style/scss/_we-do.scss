@@ -1,0 +1,21 @@
+.we-do {
+  position: relative;
+  height: 100vh;
+  background-position-x: left;
+  background-image: url("../img/What_we_do.png");
+  background-repeat: no-repeat;
+  background-size: 50%;
+  display: flex;
+  align-items: center;
+}
+
+.we-do__wrap {
+  display: flex;
+  flex-direction: column;
+  margin-left: auto;
+  max-width: 450px;
+}
+
+.we-do__desc {
+  margin-bottom: 40px;
+}
