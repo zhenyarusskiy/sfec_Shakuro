@@ -6,7 +6,6 @@
   position: absolute;
   left: 0;
   right: 0;
-
   padding: 21px 0 21px 0;
 }
 
@@ -18,6 +17,7 @@
   font-weight: 700;
   font-size: 14px;
   line-height: 14px;
+  color: $black;
 
   &::before {
     display: inline-flex;
@@ -28,13 +28,17 @@
     border-radius: 50%;
     margin-right: 5px;
   }
+
+  &:hover {
+    opacity: .7;
+  }
 }
 
 .menu__item {
   margin-right: 49px;
-  font-family: Inter UI;
+  font-family: 'Inter UI';
   font-style: normal;
-  font-weight: 600;
+  font-weight: 500;
   font-size: 12px;
   line-height: 24px;
   letter-spacing: 1px;
@@ -47,6 +51,12 @@
 
 .menu__link {
   color: $white;
+  transition: .5s;
+
+  &:hover {
+    opacity: .7;
+    color: #2a4bff;
+  }
 }
 
 .trash-cart {
@@ -73,6 +83,6 @@
     display: flex;
     width: 24px;
     height: 24px;
-    background-image: url(./../img/svg/shopping_cart_24px.svg);
+    background-image: url(/src/img/svg/shopping_cart_24px.svg);
   }
 }

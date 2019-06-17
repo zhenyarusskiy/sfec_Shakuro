@@ -23,17 +23,13 @@
   color: $white;
 }
 
-.menu {
-  margin-bottom: 20px;
-}
-
 .adress {
   margin-right: 40px;
   justify-content: center;
   display: flex;
 
   &::before {
-    content: "";
+    content: '';
     display: inline-flex;
     background-image: url(./../img/local_phone_24px.png);
     background-repeat: no-repeat;
@@ -49,7 +45,7 @@
   justify-content: center;
 
   &::before {
-    content: "";
+    content: '';
     display: inline-flex;
     background-image: url(./../img/local_phone_24px.png);
     background-repeat: no-repeat;

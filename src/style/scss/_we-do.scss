@@ -1,7 +1,7 @@
 .we-do {
   position: relative;
   height: 100vh;
-  background-position-x: left;
+  background-position-x: 0 100%;
   background-image: url("../img/What_we_do.png");
   background-repeat: no-repeat;
   background-size: 50%;
@@ -17,5 +17,11 @@
 }
 
 .we-do__desc {
+  color: #6E6F7A;
+  font-family: Inter UI;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 24px;
   margin-bottom: 40px;
 }

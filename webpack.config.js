@@ -14,13 +14,21 @@ module.exports = {
     filename: "bundle.js"
   },
   module: {
-    rules: [
-      {
+    rules: [{
         test: /\.(css|sass|scss)$/,
         loader: ETP.extract({
           fallback: "style-loader",
           use: "css-loader!sass-loader"
         })
+      },
+      {
+        test: /\.(ttf|eot|woff|svg|woff2)$/,
+        use: {
+          loader: "file-loader",
+          options: {
+            name: `src/fonts/[name].[ext]`,
+          }
+        }
       },
       {
         test: /\.(gif|png|jpe?g|svg)$/i,
@@ -29,7 +37,7 @@ module.exports = {
           {
             loader: 'image-webpack-loader',
             options: {
-              
+
               disable: true
             },
           },
