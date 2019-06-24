@@ -1,0 +1,27 @@
+.we-do {
+  position: relative;
+  height: 100vh;
+  background-position-x: 0 100%;
+  background-image: url("../img/What_we_do.png");
+  background-repeat: no-repeat;
+  background-size: 50%;
+  display: flex;
+  align-items: center;
+}
+
+.we-do__wrap {
+  display: flex;
+  flex-direction: column;
+  margin-left: auto;
+  max-width: 450px;
+}
+
+.we-do__desc {
+  color: #6E6F7A;
+  font-family: Inter UI;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 24px;
+  margin-bottom: 40px;
+}

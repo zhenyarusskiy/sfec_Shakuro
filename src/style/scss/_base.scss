@@ -1,0 +1,17 @@
+body {
+  position: relative;
+}
+
+.container {
+  max-width: 1120px;
+  width: 95%;
+  margin: 0 auto;
+  padding-left: 12px;
+  padding-right: 12px;
+}
+
+.header__box {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}

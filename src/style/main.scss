@@ -1,0 +1,24 @@
+//color
+$black: #141414;
+$dark: #2f3234;
+$yellow: #f9b43b;
+$orange: #e45028;
+$green: #8bc334;
+$red: #e35028;
+$white: #ffffff;
+$grey: #d1cfcb;
+
+@import 'scss/base.scss';
+@import 'scss/normalize.scss';
+@import 'scss/fonts.scss';
+@import 'scss/button.scss';
+@import 'scss/titles.scss';
+@import 'scss/header.scss';
+@import 'scss/welcome.scss';
+@import 'scss/reviews.scss';
+@import 'scss/pagination.scss';
+@import 'scss/models.scss';
+@import 'scss/consulting.scss';
+@import 'scss/we-do.scss';
+@import 'scss/articles.scss';
+@import 'scss/footer.scss';
