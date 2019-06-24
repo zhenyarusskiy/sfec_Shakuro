@@ -58,3 +58,16 @@
 .go-next {
   transform: rotate(180deg);
 }
+
+.search__btn {
+  background-image: url("./../img/blog/search_24px.png");
+  height: 24px;
+  width: 24px;
+  border: none;
+  background-color: transparent;
+  cursor: pointer;
+  position: relative;
+  left: 24px;
+  top: 28px;
+  z-index: 1;
+}

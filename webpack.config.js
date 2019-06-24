@@ -6,7 +6,9 @@ var imageWebpackLoader = require("image-webpack-loader");
 
 module.exports = {
   entry: {
-    app: './index.js'
+    'app': './index.js'
+
+
   },
 
   output: {
@@ -50,12 +52,20 @@ module.exports = {
   },
   plugins: [
     new HtmlWebpackPlugin({
-      title: "Cards",
+      title: "Homepage",
       minify: {
         collapseWhitespace: true
       },
       hash: true,
       template: "./index.html"
+    }),
+    new HtmlWebpackPlugin({
+      title: "Blog",
+      minify: {
+        collapseWhitespace: true
+      },
+      hash: true,
+      template: "./src/pages/blog.html"
     }),
     new ETP("main.css")
   ]

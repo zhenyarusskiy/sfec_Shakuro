@@ -9,6 +9,11 @@
   padding: 21px 0 21px 0;
 }
 
+.blog-header {
+  display: block;
+  padding: 21px 0 21px 0;
+}
+
 .logo {
   display: flex;
   align-items: center;
@@ -53,6 +58,16 @@
   color: $white;
   transition: .5s;
 
+  &--page-block {
+    color: $black;
+    transition: .5s;
+
+    &:hover {
+      opacity: .7;
+      color: #2a4bff;
+    }
+  }
+
   &:hover {
     opacity: .7;
     color: #2a4bff;
@@ -60,15 +75,17 @@
 }
 
 .trash-cart {
+  display: inline-table;
+  padding: 1px 2px 0px 2px;
   width: 16px;
   height: 16px;
   position: relative;
   right: 10px;
   bottom: 5px;
   text-align: center;
-  background-color: $white;
+  background-color: #2a4bff;
   border-radius: 50%;
-  color: #2a4bff;
+  color: $white;
   font-family: Inter UI;
   font-style: normal;
   font-weight: 600;
@@ -78,11 +95,15 @@
 .trash {
   display: flex;
 
+  &--blog {
+    display: flex;
+  }
+
   &::before {
     content: '';
     display: flex;
     width: 24px;
     height: 24px;
-    background-image: url(/src/img/svg/shopping_cart_24px.svg);
+    background-image: url('./../img/svg/shopping_cart_24px.svg');
   }
 }
