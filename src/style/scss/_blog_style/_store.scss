@@ -26,10 +26,20 @@
   max-width: 33%;
 }
 
+.blog__link {
+  text-decoration: none;
+  background-color: #ffffff;
+  color: #000000;
+  border-radius: 8px;
+  overflow: hidden;
+
+  &:hover {
+    opacity: .7;
+  }
+}
+
 .blog_img {
   max-width: 100%;
-  border-top-left-radius: 8px;
-  border-top-right-radius: 8px;
 }
 
 .search {
@@ -55,7 +65,7 @@
 }
 
 .blog__title {
-  font-family: Inter UI;
+  font-family: 'Inter Bold';
   font-style: normal;
   font-weight: 500;
   font-size: 12px;
@@ -63,7 +73,7 @@
 }
 
 .blog__text {
-  font-family: Inter UI;
+  font-family: 'Inter Light BETA';
   font-style: normal;
   font-weight: normal;
   font-size: 12px;
@@ -73,9 +83,4 @@
 
 .blog__desc {
   padding: 10px;
-}
-
-.blog__desc,
-.blog__link {
-  background-color: #ffffff;
 }

@@ -1,5 +1,5 @@
 .footer {
-  padding: 50px 0 65px 0;
+  padding: rem(50px) 0 rem(65px) 0;
   background-color: #0e0f21;
 }
 
@@ -24,7 +24,7 @@
 }
 
 .adress {
-  margin-right: 40px;
+  margin-right: rem(40px);
   justify-content: center;
   display: flex;
 
@@ -34,9 +34,9 @@
     background-image: url(./../img/local_phone_24px.png);
     background-repeat: no-repeat;
     background-position: center center;
-    margin-right: 17px;
-    width: 18px;
-    height: 18px;
+    margin-right: rem(17px);
+    width: rem(18px);
+    height: rem(18px);
   }
 }
 
@@ -50,18 +50,18 @@
     background-image: url(./../img/local_phone_24px.png);
     background-repeat: no-repeat;
     background-position: center center;
-    margin-right: 17px;
-    width: 18px;
-    height: 18px;
+    margin-right: rem(17px);
+    width: rem(18px);
+    height: rem(18px);
   }
 }
 
 .adress,
 .phone {
-  font-family: Inter UI;
+  font-family: 'Inter Light BETA';
   font-style: normal;
   font-weight: 400;
-  font-size: 14px;
-  line-height: 16px;
+  font-size: rem(14px);
+  line-height: rem(16px);
   color: $white;
 }
