@@ -8,9 +8,10 @@ $red: #e35028;
 $white: #ffffff;
 $grey: #d1cfcb;
 
-@import 'scss/base.scss';
-@import 'scss/normalize.scss';
-@import 'scss/fonts.scss';
+@import 'scss/layout/base.scss';
+@import 'scss/layout/normalize.scss';
+@import 'scss/layout/fonts.scss';
+@import 'scss/layout/media.scss';
 @import 'scss/button.scss';
 @import 'scss/titles.scss';
 @import 'scss/header.scss';
@@ -22,3 +23,4 @@ $grey: #d1cfcb;
 @import 'scss/we-do.scss';
 @import 'scss/articles.scss';
 @import 'scss/footer.scss';
+@import 'scss/_blog_style/store';

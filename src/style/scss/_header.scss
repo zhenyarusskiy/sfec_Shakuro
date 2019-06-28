@@ -6,24 +6,29 @@
   position: absolute;
   left: 0;
   right: 0;
-  padding: 21px 0 21px 0;
+  padding: rem(21px) 0 rem(21px) 0;
+}
+
+.blog-header {
+  display: block;
+  padding: rem(21px) 0 rem(21px) 0;
 }
 
 .logo {
   display: flex;
   align-items: center;
-  font-family: Roboto;
+  font-family: 'Roboto Bold';
   font-style: normal;
   font-weight: 700;
   font-size: 14px;
-  line-height: 14px;
+  line-height: rem(14px);
   color: $black;
 
   &::before {
     display: inline-flex;
     content: '';
-    width: 40px;
-    height: 40px;
+    width: rem(40px);
+    height: rem(40px);
     border: 8px solid #0078ff;
     border-radius: 50%;
     margin-right: 5px;
@@ -35,12 +40,12 @@
 }
 
 .menu__item {
-  margin-right: 49px;
-  font-family: 'Inter UI';
+  margin-right: rem(49px);
+  font-family: 'Inter SemiBold';
   font-style: normal;
   font-weight: 500;
   font-size: 12px;
-  line-height: 24px;
+  line-height: rem(24px);
   letter-spacing: 1px;
   text-transform: uppercase;
 
@@ -53,22 +58,36 @@
   color: $white;
   transition: .5s;
 
+  &--page-block {
+    color: $black;
+    transition: .5s;
+
+    &:hover {
+      opacity: .7;
+      color: #2a4bff;
+      box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.16);
+    }
+  }
+
   &:hover {
     opacity: .7;
     color: #2a4bff;
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.16);
   }
 }
 
 .trash-cart {
-  width: 16px;
-  height: 16px;
+  display: inline-table;
+  padding: 1px 2px 0px 2px;
+  width: rem(16px);
+  height: rem(16px);
   position: relative;
   right: 10px;
   bottom: 5px;
   text-align: center;
-  background-color: $white;
+  background-color: #2a4bff;
   border-radius: 50%;
-  color: #2a4bff;
+  color: $white;
   font-family: Inter UI;
   font-style: normal;
   font-weight: 600;
@@ -78,11 +97,15 @@
 .trash {
   display: flex;
 
+  &--blog {
+    display: flex;
+  }
+
   &::before {
     content: '';
     display: flex;
-    width: 24px;
-    height: 24px;
-    background-image: url(/src/img/svg/shopping_cart_24px.svg);
+    width: rem(24px);
+    height: rem(24px);
+    background-image: url('./../img/svg/shopping_cart_24px.svg');
   }
 }

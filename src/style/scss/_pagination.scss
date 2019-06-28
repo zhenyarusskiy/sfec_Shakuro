@@ -19,7 +19,7 @@
   display: flex;
   width: 7.41px;
   height: 12px;
-  margin-right: 40px;
+  margin-right: rem(40px);
   background-image: url("./../img/chevron_left_24px.png");
   background-repeat: no-repeat;
   background-position: center center;
@@ -33,7 +33,7 @@
   display: flex;
   width: 7.41px;
   height: 12px;
-  margin-left: 40px;
+  margin-left: rem(40px);
   background-image: url("./../img/chevron_left_24px.png");
   background-repeat: no-repeat;
   background-position: center center;

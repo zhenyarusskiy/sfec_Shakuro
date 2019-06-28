@@ -1,5 +1,5 @@
 .reviews {
-  margin-bottom: 200px;
+  margin-bottom: rem(200px);
 }
 
 .reviews--wrap {
@@ -8,21 +8,21 @@
 }
 
 .reviews__title {
-  margin-bottom: 80px;
+  margin-bottom: rem(80px);
 }
 
 .reviews__desc {
-  max-width: 832px;
-  margin-right: 72px;
+  max-width: rem(832px);
+  margin-right: rem(72px);
 }
 
 .reviews__text {
-  margin-bottom: 30px;
+  margin-bottom: rem(30px);
   font-family: Inter UI;
   font-style: italic;
   font-weight: 400;
-  font-size: 24px;
-  line-height: 32px;
+  font-size: rem(24px);
+  line-height: rem(32px);
 }
 
 .reviews__information {
